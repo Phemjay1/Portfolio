@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  font-family: 'segoe UI',;
+  line-height: 1.5cm;
+}
+a {
+  color: #333;
+  text-decoration: nine;
+}
+h1, h2, h3{
+  padding-bottom: 20px;
+}
+p{
+  margin: 10px 0;
+}
+
+.container{
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary {
+  color: darkblue;
+  font-size: 50px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  background: #f4f4f4;
+  padding: 0px 20px;
+  border: none;
+  margin: 40%;
+  font-size: 23px;
+  cursor: pointer;
+  }
+
+.btn:hover{
+  background:#f7c08a;
+  color: #333
+}
+.clr {
+  clear: both;
+}
+
+.l-heading{
+  font-size: 50px;
+}
+
+
+#navbar{
+  background: #333;
+  color: #fff;
+  overflow: auto
+}
+#navbar a{
+  color: #fff;
+}
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding:20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color:#f7c08a;
+}
+
+#showcase {
+  background: url('../img/myweb3.jpg') no-repeat center center/cover; 
+  height: 950px;
+}
+#showcase .showcase-content{
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+  
+}
+#showcase .showcase-content h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+#contact-form .form-group {
+  margin-bottom: 20px
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea {
+  height: 200px
+}
+#contact-form input:focus
+#contact-form textarea:focus{
+  outline: none;
+  border-color: #f7c08a
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 70px;
+  padding: 100px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 70px;
+  padding: 100px;
+}
+.fa-instagram {
+  background: brown;
+  color: white;
+  width: 70px;
+  padding: 100px;
+}
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: lemonchiffon;
+  padding: 20px;
+}
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  background: skyblue;
+}
+.bg-primary {
+  color: white;
+}
+.box i {
+  margin-bottom: 10px;
+}
