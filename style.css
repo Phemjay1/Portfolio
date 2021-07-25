@@ -88,7 +88,7 @@ p{
 }
 
 #showcase {
-  background: url('../img/myweb3.jpg') no-repeat center center/cover; 
+  background: url('myweb3.jpg') no-repeat center center/cover; 
   height: 950px;
 }
 #showcase .showcase-content{
