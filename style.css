@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@media screen and (max-width:800px) {
+.body {
+width: 100%;
+}
+}
 html,body{
   font-family: 'segoe UI',;
   line-height: 1.5cm;
